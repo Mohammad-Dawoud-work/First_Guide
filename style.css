@@ -1,0 +1,34 @@
+#colorDiv ,#fontDiv, #textDiv {
+border: 3px solid gray;
+border-radius: 10px;
+margin: 8px 50px;
+padding: 20px 10px;
+}
+.box {
+    display: inline-block;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+#coolBlue {
+    background-color: #2d5dcc;
+    color: azure;
+}
+#Pink {
+    background-color: #d957d9;
+}
+#mintGreen {
+    background-color: #4fe0b0;
+}
+.innerContent {
+padding: 10px;
+}
+h1 {
+    color: darkcyan;
+    font-family: sans-serif;
+    text-align: center;
+}
