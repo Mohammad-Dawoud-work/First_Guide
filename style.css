@@ -1,9 +1,15 @@
-#colorDiv ,#fontDiv, #textDiv {
-border: 3px solid gray;
-border-radius: 10px;
-margin: 8px 50px;
-padding: 20px 10px;
+#colorDiv,
+#fontDiv,
+#textDiv {
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 10px 50px;
+    padding: 30px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 50px;
 }
+
 .box {
     display: inline-block;
     width: 30%;
@@ -14,19 +20,44 @@ padding: 20px 10px;
     font-family: sans-serif;
     border-radius: 5px;
 }
+
 #coolBlue {
     background-color: #2d5dcc;
     color: azure;
+    font-weight: normal;
 }
+
 #Pink {
     background-color: #d957d9;
+    font-weight: normal;
 }
+
 #mintGreen {
     background-color: #4fe0b0;
+    font-weight: normal;
 }
+
+#Beige {
+    background-color: #efd9ca;
+    font-weight: normal;
+}
+
+#Brown {
+    background-color: #A52A2A;
+    font-weight: normal;
+    color: beige;
+}
+
+#blueViolet {
+    background-color: #8A2BE2;
+    font-weight: normal;
+    color: beige;
+}
+
 .innerContent {
-padding: 10px;
+    padding: 10px;
 }
+
 h1 {
     color: darkcyan;
     font-family: sans-serif;
