@@ -3,11 +3,75 @@
 #textDiv {
     border: 3px solid gray;
     border-radius: 10px;
-    margin: 10px 50px;
+    margin: 20px auto;
     padding: 30px 10px;
     font-family: sans-serif;
     font-weight: bold;
     padding-left: 50px;
+}
+
+.fontPanel {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 40%;
+    padding: 5px;
+}
+
+.nunito {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal
+}
+
+#nunito-underline {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#nunito-bold {
+    font-weight: bold;
+}
+
+#nunito-italic {
+    font-style: italic;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal
+}
+
+#poppins-underline {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#poppins-bold {
+    font-weight: bold;
+}
+
+#poppins-italic {
+    font-style: italic;
+}
+
+
+.scp {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: normal;
+}
+
+#scp-underline {
+    text-decoration: underline;
+    font-size: larger;
+}
+
+#scp-bold {
+    font-weight: bold;
+}
+
+#scp-italic {
+    font-style: italic;
 }
 
 .box {
