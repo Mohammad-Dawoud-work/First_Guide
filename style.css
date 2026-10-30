@@ -4,10 +4,13 @@
     border: 3px solid gray;
     border-radius: 10px;
     margin: 20px auto;
-    padding: 30px 10px;
-    font-family: sans-serif;
-    font-weight: bold;
+    padding: 30px 1px;
     padding-left: 50px;
+}
+
+body {
+    margin: 0 10%;
+    ;
 }
 
 .fontPanel {
@@ -122,8 +125,11 @@
     padding: 10px;
 }
 
-h1 {
+#mainTitle {
     color: darkcyan;
     font-family: sans-serif;
     text-align: center;
+}
+li, .lastTitles, h2 {
+    font-family: Nunito sans;
 }
